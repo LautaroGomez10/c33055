@@ -1,0 +1,368 @@
+/*GENERAL*/
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: .5fr 4fr .5fr;
+    grid-template-areas:"header"
+                        "main"
+                        "footer";
+}
+
+/*HEADER*/
+
+
+header{
+    background-color: rgb(231, 44, 44);
+    grid-area: header;
+}
+
+.header__menu{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    margin: 5px;
+}
+
+
+/*MAIN*/
+
+main{
+    grid-area: main;
+}
+
+
+/*MAIN DE INDEX*/
+
+.main__index{
+    background-image: url(../assets/images/canchabanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-areas:"titulo titulo"
+                        "imagen parrafo"
+                        "imagen parrafo";
+}
+.main__index__titulo{
+    font-size: 40px;
+    margin-left: 40px;
+    padding: 20px;
+    grid-area: titulo;
+    display: flex;
+    justify-content: center;
+}
+
+.main__index__img{
+    grid-area: imagen;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main__index__img__item{
+    width: 900px;
+}
+
+.main__index__p{
+    padding: 30px;
+    font-size: 30px;
+    grid-area: parrafo;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+
+/*MAIN DE ACERCADE*/
+.main__acercade{
+    background-image: url(../assets/images/canchabanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.main__acercade__img1{
+    grid-area: 1/1/2/2;
+    width: 500px;
+    border: 5px solid rgb(231, 44, 44);
+    border-radius: 10px;
+}
+
+.main__acercade__p1{
+    grid-area: 1/2/2/3;
+    font-size: 23px;
+    padding: 25px;
+    margin: 35px;
+}
+
+.main__acercade__img2{
+    grid-area: 2/2/3/3;
+    width: 500px;
+    border: 5px solid rgb(231, 44, 44);
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.main__acercade__p2{
+    grid-area: 2/1/3/2;
+    font-size: 23px;
+    padding: 25px;
+    margin: 35px;
+}
+
+/*MAIN DE TRAYECTORIA*/
+
+
+.main__trayectoria{
+    background-image: url(../assets/images/canchabanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+
+.main__trayectoria__independiente{
+    grid-area: 1/1/2/2;
+    border: 5px solid rgb(221, 213, 213);
+    border-radius: 10px;
+    background-color: rgb(231, 44, 44);
+    margin: 20px;
+}
+.main__trayectoria__imgindependiente{
+    padding: 10px;
+    width: 350px;
+    height: 250px;
+}
+
+.main__trayectoria__pindependiente{
+    padding: 10px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+
+.main__trayectoria__madrid{
+    grid-area: 1/2/2/3;
+    border: 5px solid rgb(231, 44, 44);
+    border-radius: 10px;
+    background-color: rgb(221, 213, 213);
+    margin: 20px;
+}
+.main__trayectoria__imgmadrid{
+    padding: 10px;
+    width: 350px;
+    height: 250px;
+}
+.main__trayectoria__pmadrid{
+    padding: 10px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+
+.main__trayectoria__city{
+    grid-area: 2/1/3/2;
+    border: 5px solid rgb(190, 140, 0);
+    border-radius: 10px;
+    background-color: rgb(44, 131, 231);
+    margin: 20px;
+}
+.main__trayectoria__imgcity{
+    padding: 10px;
+    width: 350px;
+    height: 250px;
+}
+.main__trayectoria__pcity{
+    padding: 10px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+
+.main__trayectoria__barcelona{
+    grid-area: 2/2/3/3;
+    border: 5px solid rgb(2, 0, 148);
+    border-radius: 10px;
+    background-color: rgb(190, 140, 0);
+    margin: 20px;
+}
+.main__trayectoria__imgbarcelona{
+    padding: 10px;
+    width: 350px;
+    height: 250px;
+}
+.main__trayectoria__pbarcelona{
+    padding: 10px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+
+.main__trayectoria__seleccion{
+    grid-area: 3/1/4/3;
+    border: 5px solid rgb(44, 131, 231);
+    border-radius: 10px;
+    background-color: rgb(221, 213, 213);
+    margin: 20px;
+}
+.main__trayectoria__imgseleccion{
+    padding: 10px;
+    width: 350px;
+    height: 250px;
+}
+.main__trayectoria__pseleccion{
+    padding: 10px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+
+
+
+/*MAIN DE CONTACTO*/
+
+.main__contacto__form{
+    margin: 15px;
+}
+
+
+
+
+/*FOOTER*/
+
+
+footer{
+    grid-area: footer;
+    background-color: rgb(231, 44, 44);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.footer__texto{
+    padding: 25px;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width:1600px){
+
+/*INDEX*/
+
+
+    .main__index{
+        background-image: url(../assets/images/canchabanner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr 2fr .5fr;
+    }
+    .main__index__titulo{
+        grid-area: 1/1/2/1;
+        padding: 5px;
+        justify-content: center;
+    }
+    .main__index__img{
+        grid-area: 2/1/3/1;
+        justify-content: center;
+    }
+    .main__index__p{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-area: 3/1/4/1;
+        justify-content: center;
+    }
+
+/*ACERCADE*/
+
+
+
+    .main__acercade{
+        background-image: url(../assets/images/canchabanner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: .5fr 1fr .5fr;
+        grid-template-rows: repeat(4, 1fr);
+        padding: 5px;
+    }
+    .main__acercade__img1{
+        grid-area: 1/2/2/3;
+    }
+    .main__acercade__p1{
+        grid-area: 2/2/3/3;
+        padding: 5px;
+    }
+    .main__acercade__img2{
+        grid-area: 3/2/4/3;
+    }
+    .main__acercade__p2{
+        grid-area: 4/2/5/3;
+        padding: 5px;
+    }
+
+
+/*TRAYECTORIA*/
+
+
+    .main__trayectoria{
+        background-image: url(../assets/images/canchabanner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: .5fr 1fr .5fr;
+        grid-template-rows: repeat(5, 1fr);
+        padding: 40px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .main__trayectoria__independiente{
+        grid-area: 1/2/2/3;
+    }
+    .main__trayectoria__madrid{
+        grid-area: 2/2/3/3;
+    }
+    .main__trayectoria__city{
+        grid-area: 3/2/4/3;
+    }
+    .main__trayectoria__barcelona{
+        grid-area: 4/2/5/3;
+    }
+    .main__trayectoria__seleccion{
+        grid-area: 5/2/6/3;
+    }
+
+
+}
+
+
