@@ -259,6 +259,56 @@ main{
     display: inline-block;
 }
 
+/*MAIN DE GALERIA*/
+
+.main__galeria{
+    background-image: url(../assets/images/canchabanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;      
+}
+
+.main__galeria__foto1{
+    grid-area: 1/1/3/2;
+    width: 300px;
+}
+
+.main__galeria__video1{
+    grid-area: 1/2/2/4;
+    width: 700px;
+
+}
+
+.main__galeria__foto2{
+    grid-area: 1/4/2/5;
+    width: 400px;
+}
+
+.main__galeria__foto3{
+    grid-area: 2/2/3/3;
+    width: 400px;
+}
+
+.main__galeria__foto4{
+    grid-area: 2/3/3/5;
+    width: 600px;
+}
+
+.main__galeria__video2{
+    grid-area: 3/1/4/3;
+    width: 700px;
+}
+
+.main__galeria__foto5{
+    grid-area: 3/3/4/5;
+    width: 500px;
+}
+
+
 
 
 
