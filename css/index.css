@@ -268,28 +268,31 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    justify-items: center;
-    align-items: center;      
+    justify-items: stretch;
+    align-items: stretch;      
 }
 
 .main__galeria__foto1{
-    grid-area: 1/1/3/2;
-    width: 300px;
+    grid-area: 1/1/2/2;
+    width: 100%;
+    padding: 15px;
 }
 
 .main__galeria__video1{
     grid-area: 1/2/2/4;
-    width: 700px;
+    width: 100%;
+    padding: 15px;
 
 }
 
 .main__galeria__foto2{
     grid-area: 1/4/2/5;
-    width: 400px;
+    width: 100%;
+    padding: 15px;
 }
 
 .main__galeria__foto3{
-    grid-area: 2/2/3/3;
+    grid-area: 2/1/3/3;
     width: 400px;
 }
 
