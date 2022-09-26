@@ -8,17 +8,10 @@
     font-family: 'Roboto Condensed', sans-serif;;
     box-sizing: border-box;
     max-width: 100%;
+    max-height: 100%;
 }
 
-body{
-    height: 100vh;
-    width: 100vw;
-    display: grid;
-    grid-template-rows: .5fr 4fr .5fr;
-    grid-template-areas:"header"
-                        "main"
-                        "footer";
-}
+
 
 /*HEADER*/
 
@@ -39,13 +32,25 @@ header{
 
 /*MAIN*/
 
-main{
+/*main{
     grid-area: main;
-}
+}/*
 
 
 /*MAIN DE INDEX*/
 
+.main__index{
+    background-image: url(../assets/images/canchabanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main__index__titulo__item{
+    font-size: 75px;
+}
+.main__index__imgyp{
+    font-size: 35px;
+}
+/*
 .main__index{
     background-image: url(../assets/images/canchabanner.jpg);
     background-repeat: no-repeat;
@@ -94,8 +99,7 @@ main{
     transition-duration: .5s;
     color: rgb(197, 10, 10);
 }
-
-
+/*
 /*MAIN DE ACERCADE*/
 .main__acercade{
     background-image: url(../assets/images/canchabanner.jpg);
@@ -410,8 +414,12 @@ main{
 
 /*FOOTER*/
 
-
 footer{
+    background-color: rgb(231, 44, 44);
+    font-size: 25px;
+}
+
+/*footer{
     grid-area: footer;
     background-color: rgb(231, 44, 44);
     font-size: 25px;
@@ -426,7 +434,7 @@ footer{
 
 /*MEDIA QUERIES 1500px*/
 
-
+/*
 @media (max-width:1500px){
     .main__index{
         background-image: url(../assets/images/canchabanner.jpg);
@@ -475,12 +483,12 @@ footer{
 /*MEDIA QUERIES 1200px*/
 
 
-@media (max-width:1200px){
+/*@media (max-width:1200px){
 
 /*INDEX*/
 
 
-    .main__index{
+ /*   .main__index{
         background-image: url(../assets/images/canchabanner.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -507,7 +515,7 @@ footer{
 
 /*ACERCADE*/
 
-
+/*
 
     .main__acercade{
         background-image: url(../assets/images/canchabanner.jpg);
@@ -536,7 +544,7 @@ footer{
 
 /*TRAYECTORIA*/
 
-
+/*
     .main__trayectoria{
         background-image: url(../assets/images/canchabanner.jpg);
         background-repeat: no-repeat;
@@ -567,5 +575,5 @@ footer{
 
 
 }
-
+/*
 
