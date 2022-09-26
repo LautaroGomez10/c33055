@@ -22,22 +22,18 @@ body{
 
 /*HEADER*/
 
-
-header{
-    background-color: rgb(231, 44, 44);
-    grid-area: header;
-}
-
-.header__menu{
-    display: flex;
-    justify-content: center;
-    margin: 25px;
-}
-
-header a{
+.navmio{
     color: rgb(255, 255, 255);
     padding: 15px;
     margin: 5px;
+}
+.navbotonmio{
+    color: rgb(255, 255, 255);
+}
+
+header{
+    background-color: rgb(231, 44, 44);
+    font-size: 20px;
 }
 
 
