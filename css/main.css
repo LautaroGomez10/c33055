@@ -1,0 +1,8 @@
+.main__index {
+  background-image: url(../assets/images/canchabanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__index div .main__index__titulo__item {
+  font-size: 75px;
+}

@@ -1,0 +1,12 @@
+header {
+  background-color: rgb(231, 44, 44);
+  font-size: 20px;
+}
+header nav div .navbotonmio {
+  color: rgb(255, 255, 255);
+}
+header nav div ul li .navmio {
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  margin: 5px;
+}

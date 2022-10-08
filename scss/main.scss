@@ -1,0 +1,23 @@
+.main__index{
+    background-image: url(../assets/images/canchabanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    div{
+        .main__index__titulo__item{
+            font-size: 75px;
+                &:hover{
+                    transition-duration: .5s;
+                    color: rgb(197, 10, 10);
+                }    
+        }
+    }
+    .main__index__imgyp{
+        font-size: 35px;
+        .main__index__p__item{
+            &:hover{
+                transition-duration: .5s;
+                color: rgb(197, 10, 10);
+            }    
+        }
+    }
+}

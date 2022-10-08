@@ -1,0 +1,30 @@
+.main__acercade{
+    background-image: url(../assets/images/canchabanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 28px;
+    .main__acercade__img1{
+        &:hover{
+            border: solid 5px rgb(231, 44, 44);
+            border-radius: 15px;
+        }
+    }
+    .main__acercade__p1{
+        &:hover{
+            transition-duration: .5s;
+            color: rgb(197, 10, 10);
+        }
+    }
+    .main__acercade__img2{
+        &:hover{
+            border: solid 5px rgb(231, 44, 44);
+            border-radius: 15px;
+        }
+    }
+    .main__acercade__p2{
+        &:hover{
+            transition-duration: .5s;
+            color: rgb(197, 10, 10);
+        }
+    }
+}
