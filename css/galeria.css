@@ -1,0 +1,6 @@
+.main_galeria {
+  background-image: url(../assets/images/canchabanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
