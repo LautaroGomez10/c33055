@@ -1,0 +1,30 @@
+main{
+    background-image: url(../assets/images/canchabanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    div{
+        padding: 5px;
+        div{
+            &:hover{
+                border: 5px solid rgb(231, 44, 44);
+                border-radius: 5px;
+                background-color: rgb(231, 44, 44);
+                transition-duration: .3s;
+            }
+            .imgmio{
+                margin: 5px;
+                width: 100%;
+                height: 400px;
+            }
+            .imgmioarg{
+                margin: 5px;
+                width: 50%;
+                height: 400px;
+            }
+            .pmio{
+                font-size: 20px;
+            }
+        }
+        
+    }
+}

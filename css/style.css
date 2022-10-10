@@ -80,3 +80,32 @@ footer div ul li a {
 footer div ul li a:hover {
   color: rgb(75, 2, 2);
 }
+
+main {
+  background-image: url(../assets/images/canchabanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main div {
+  padding: 5px;
+}
+main div div:hover {
+  border: 5px solid rgb(231, 44, 44);
+  border-radius: 5px;
+  background-color: rgb(231, 44, 44);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+main div div .imgmio {
+  margin: 5px;
+  width: 100%;
+  height: 400px;
+}
+main div div .imgmioarg {
+  margin: 5px;
+  width: 50%;
+  height: 400px;
+}
+main div div .pmio {
+  font-size: 20px;
+}
