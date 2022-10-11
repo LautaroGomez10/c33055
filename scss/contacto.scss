@@ -1,0 +1,25 @@
+.main__contacto{
+    background-image: url(../assets/images/canchabanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    height: 100%;
+    .main__contacto__img{
+        width: 100%;
+        &:hover{
+            width: 90%;
+            transition: 2s;
+        }
+    }
+    div{
+        padding: 5px;
+        form{
+            label{
+                width: 100%;
+            }
+            textarea{
+                width: 80%;
+            }
+        }
+    }
+}

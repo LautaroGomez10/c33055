@@ -138,3 +138,28 @@ footer div ul li a:hover {
   width: 100%;
   height: 400px;
 }
+
+.main__contacto {
+  background-image: url(../assets/images/canchabanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5px;
+  height: 100%;
+}
+.main__contacto .main__contacto__img {
+  width: 100%;
+}
+.main__contacto .main__contacto__img:hover {
+  width: 90%;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+.main__contacto div {
+  padding: 5px;
+}
+.main__contacto div form label {
+  width: 100%;
+}
+.main__contacto div form textarea {
+  width: 80%;
+}
