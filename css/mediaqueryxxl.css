@@ -1,0 +1,22 @@
+@media (max-width: 1400px) {
+  .main__acercade {
+    background-image: url(../assets/images/canchabanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+  }
+  .main__acercade .main__acercade__img1:hover {
+    border: solid 5px rgb(231, 44, 44);
+    border-radius: 15px;
+  }
+  .main__acercade .main__acercade__p1:hover {
+    color: rgb(197, 10, 10);
+  }
+  .main__acercade .main__acercade__img2:hover {
+    border: solid 5px rgb(231, 44, 44);
+    border-radius: 15px;
+  }
+  .main__acercade .main__acercade__p2:hover {
+    color: rgb(197, 10, 10);
+  }
+}

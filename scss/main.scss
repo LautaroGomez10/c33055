@@ -6,7 +6,6 @@
         .main__index__titulo__item{
             font-size: 75px;
                 &:hover{
-                    transition-duration: .5s;
                     color: rgb(197, 10, 10);
                 }    
         }
@@ -15,7 +14,6 @@
         font-size: 35px;
         .main__index__p__item{
             &:hover{
-                transition-duration: .5s;
                 color: rgb(197, 10, 10);
             }    
         }

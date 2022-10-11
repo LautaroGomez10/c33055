@@ -32,16 +32,12 @@ header nav div ul li .navmio {
   font-size: 75px;
 }
 .main__index div .main__index__titulo__item:hover {
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
   color: rgb(197, 10, 10);
 }
 .main__index .main__index__imgyp {
   font-size: 35px;
 }
 .main__index .main__index__imgyp .main__index__p__item:hover {
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
   color: rgb(197, 10, 10);
 }
 
@@ -50,14 +46,13 @@ header nav div ul li .navmio {
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 28px;
+  width: 100%;
 }
 .main__acercade .main__acercade__img1:hover {
   border: solid 5px rgb(231, 44, 44);
   border-radius: 15px;
 }
 .main__acercade .main__acercade__p1:hover {
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
   color: rgb(197, 10, 10);
 }
 .main__acercade .main__acercade__img2:hover {
@@ -65,8 +60,6 @@ header nav div ul li .navmio {
   border-radius: 15px;
 }
 .main__acercade .main__acercade__p2:hover {
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
   color: rgb(197, 10, 10);
 }
 
@@ -162,4 +155,27 @@ footer div ul li a:hover {
 }
 .main__contacto div form textarea {
   width: 80%;
+}
+
+@media (max-width: 1400px) {
+  .main__acercade {
+    background-image: url(../assets/images/canchabanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+  }
+  .main__acercade .main__acercade__img1:hover {
+    border: solid 5px rgb(231, 44, 44);
+    border-radius: 15px;
+  }
+  .main__acercade .main__acercade__p1:hover {
+    color: rgb(197, 10, 10);
+  }
+  .main__acercade .main__acercade__img2:hover {
+    border: solid 5px rgb(231, 44, 44);
+    border-radius: 15px;
+  }
+  .main__acercade .main__acercade__p2:hover {
+    color: rgb(197, 10, 10);
+  }
 }
