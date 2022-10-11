@@ -1,22 +1,17 @@
-@media (max-width: 1400px){
-    .main__acercade{
-        font-size: 20px;
-    }
-
-
+@media (max-width: 992px){
     .main__galeria{
-        padding: 15px;
+        padding: 5px;
         div{
             div{
-                padding: 25px;
+                padding: 10px;
                 .datamiaind{
                     height: 400px;
                 }
                 .datamiabarca{
-                    height: 400px;
+                    height: 300px;
                 }
                 .datamia{
-                    width: 100%;
+                    width: 70%;
                     height: 300px;
                 }
             }

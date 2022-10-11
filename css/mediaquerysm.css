@@ -1,0 +1,32 @@
+@media (max-width: 576px) {
+  .maintrayectoria {
+    background-image: url(../assets/images/canchabanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+  }
+  .maintrayectoria div {
+    padding: 15px;
+  }
+  .maintrayectoria div div:hover {
+    border: 5px solid rgb(231, 44, 44);
+    border-radius: 5px;
+    background-color: rgb(231, 44, 44);
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    color: white;
+  }
+  .maintrayectoria div div .imgmio {
+    margin: 5px;
+    width: 400px;
+    height: 300px;
+  }
+  .maintrayectoria div div .imgmioarg {
+    margin: 5px;
+    width: 400px;
+    height: 300px;
+  }
+  .maintrayectoria div div .pmio {
+    font-size: 20px;
+  }
+}

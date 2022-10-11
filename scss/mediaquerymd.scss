@@ -1,0 +1,28 @@
+@media (max-width: 768px){
+    .main__index{
+        div{
+            .main__index__titulo__item{
+                font-size: 55px;
+            }
+        }
+        .main__index__imgyp{
+            font-size: 20px;
+        }
+    }
+
+
+    .maintrayectoria{
+        div{
+            div{
+                .imgmio{
+                    width: 500px;
+                    height: 300px;
+                }
+                .imgmioarg{
+                    width: 500px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+}
