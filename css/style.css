@@ -32,13 +32,13 @@ header nav div ul li .navmio {
   font-size: 75px;
 }
 .main__index div .main__index__titulo__item:hover {
-  color: rgb(197, 10, 10);
+  color: rgb(231, 44, 44);
 }
 .main__index .main__index__imgyp {
   font-size: 35px;
 }
 .main__index .main__index__imgyp .main__index__p__item:hover {
-  color: rgb(197, 10, 10);
+  color: rgb(231, 44, 44);
 }
 
 .main__acercade {
@@ -53,14 +53,14 @@ header nav div ul li .navmio {
   border-radius: 15px;
 }
 .main__acercade .main__acercade__p1:hover {
-  color: rgb(197, 10, 10);
+  color: rgb(231, 44, 44);
 }
 .main__acercade .main__acercade__img2:hover {
   border: solid 5px rgb(231, 44, 44);
   border-radius: 15px;
 }
 .main__acercade .main__acercade__p2:hover {
-  color: rgb(197, 10, 10);
+  color: rgb(231, 44, 44);
 }
 
 footer {

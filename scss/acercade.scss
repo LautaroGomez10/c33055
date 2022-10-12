@@ -6,24 +6,24 @@
     width: 100%;
     .main__acercade__img1{
         &:hover{
-            border: solid 5px rgb(231, 44, 44);
+            border: solid 5px $rojo;
             border-radius: 15px;
         }
     }
     .main__acercade__p1{
         &:hover{
-            color: rgb(197, 10, 10);
+            color: $rojo;
         }
     }
     .main__acercade__img2{
         &:hover{
-            border: solid 5px rgb(231, 44, 44);
+            border: solid 5px $rojo;
             border-radius: 15px;
         }
     }
     .main__acercade__p2{
         &:hover{
-            color: rgb(197, 10, 10);
+            color: $rojo;
         }
     }
 }

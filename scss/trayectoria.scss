@@ -7,9 +7,9 @@
         padding: 15px;
         div{
             &:hover{
-                border: 5px solid rgb(231, 44, 44);
+                border: 5px solid $rojo;
                 border-radius: 5px;
-                background-color: rgb(231, 44, 44);
+                background-color: $rojo;
                 transition-duration: .3s;
                 color: white;
             }
