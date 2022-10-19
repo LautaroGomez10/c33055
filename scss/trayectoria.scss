@@ -14,17 +14,21 @@
                 color: white;
             }
             .imgmio{
+                border: 5px solid $rojo;
+                border-radius: 8px;
                 margin: 5px;
-                width: 600px;
-                height: 400px;
+                width: 450px;
+                height: 300px;
             }
             .imgmioarg{
+                border: 5px solid $rojo;
+                border-radius: 8px;
                 margin: 5px;
-                width: 800px;
-                height: 400px;
+                width: 600px;
+                height: 300px;
             }
             .pmio{
-                font-size: 20px;
+                font-size: 16px;
             }
         }
         

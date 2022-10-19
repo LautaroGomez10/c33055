@@ -48,12 +48,18 @@ header nav div ul li .navmio {
   font-size: 28px;
   width: 100%;
 }
+.main__acercade .main__acercade__img1 {
+  border-radius: 10px;
+}
 .main__acercade .main__acercade__img1:hover {
   border: solid 5px rgb(231, 44, 44);
   border-radius: 15px;
 }
 .main__acercade .main__acercade__p1:hover {
   color: rgb(231, 44, 44);
+}
+.main__acercade .main__acercade__img2 {
+  border-radius: 10px;
 }
 .main__acercade .main__acercade__img2:hover {
   border: solid 5px rgb(231, 44, 44);
@@ -92,17 +98,21 @@ footer div ul li a:hover {
   color: white;
 }
 .maintrayectoria div div .imgmio {
+  border: 5px solid rgb(231, 44, 44);
+  border-radius: 8px;
   margin: 5px;
-  width: 600px;
-  height: 400px;
+  width: 450px;
+  height: 300px;
 }
 .maintrayectoria div div .imgmioarg {
+  border: 5px solid rgb(231, 44, 44);
+  border-radius: 8px;
   margin: 5px;
-  width: 800px;
-  height: 400px;
+  width: 600px;
+  height: 300px;
 }
 .maintrayectoria div div .pmio {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .main__galeria {
@@ -122,14 +132,22 @@ footer div ul li a:hover {
           transition-duration: 0.3s;
 }
 .main__galeria div div .datamiaind {
+  border-radius: 10px;
   height: 550px;
 }
 .main__galeria div div .datamiabarca {
+  border-radius: 10px;
   height: 550px;
 }
 .main__galeria div div .datamia {
+  border-radius: 10px;
   width: 100%;
   height: 400px;
+}
+.main__galeria div div .datamiavideo1 {
+  border-radius: 10px;
+  width: 80%;
+  height: 100%;
 }
 
 .main__contacto {
@@ -194,6 +212,15 @@ footer div ul li a:hover {
   }
   .main__galeria div div .datamia {
     width: 90%;
+  }
+
+  .maintrayectoria div div .imgmio {
+    width: 350px;
+    height: 250px;
+  }
+  .maintrayectoria div div .imgmioarg {
+    width: 350px;
+    height: 250px;
   }
 }
 @media (max-width: 768px) {

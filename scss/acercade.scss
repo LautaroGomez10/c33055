@@ -5,6 +5,7 @@
     font-size: 28px;
     width: 100%;
     .main__acercade__img1{
+        border-radius: 10px;
         &:hover{
             border: solid 5px $rojo;
             border-radius: 15px;
@@ -16,6 +17,7 @@
         }
     }
     .main__acercade__img2{
+        border-radius: 10px;
         &:hover{
             border: solid 5px $rojo;
             border-radius: 15px;
