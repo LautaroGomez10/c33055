@@ -4,11 +4,13 @@
     background-size: cover;
     padding: 5px;
     height: 100%;
-    .main__contacto__img{
-        width: 100%;
-        &:hover{
-            width: 90%;
-            transition: 2s;
+    div{
+        .main__contacto__img{
+            width: 400px;
+            &:hover{
+                width: 500px;
+                transition: 2s;
+            }
         }
     }
     div{
@@ -17,9 +19,28 @@
             label{
                 width: 100%;
             }
-            textarea{
-                width: 80%;
+            input{
+                border-radius: 8px;
+                &:hover{
+                    border: solid 2px $rojo;
+                }
             }
+            textarea{
+                padding: 2px 5px 2px;
+                border-radius: 8px;
+                width: 70%;
+                &:hover{
+                    border: solid 2px $rojo;
+                }
+            }
+        }
+        .main__contacto__form__enviar{
+            font-size: 18px;
+            color: white;
+            padding: 5px 10px 5px;
+            border: 5px $rojo;
+            border-radius: 8px;
+            background-color: $rojo;
         }
     }
 }

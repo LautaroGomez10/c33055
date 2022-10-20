@@ -11,7 +11,7 @@
     }
 
 
-    .maintrayectoria{
+    .main__trayectoria{
         div{
             div{
                 .imgmio{
@@ -21,6 +21,18 @@
                 .imgmioarg{
                     width: 500px;
                     height: 300px;
+                }
+            }
+        }
+    }
+
+    .main__contacto{
+        div{
+            .main__contacto__img{
+                width: 200px;
+                &:hover{
+                    width: 250px;
+                    transition: 2s;
                 }
             }
         }

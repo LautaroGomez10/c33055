@@ -80,16 +80,16 @@ footer div ul li a:hover {
   color: rgb(75, 2, 2);
 }
 
-.maintrayectoria {
+.main__trayectoria {
   background-image: url(../assets/images/canchabanner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 15px;
 }
-.maintrayectoria div {
+.main__trayectoria div {
   padding: 15px;
 }
-.maintrayectoria div div:hover {
+.main__trayectoria div div:hover {
   border: 5px solid rgb(231, 44, 44);
   border-radius: 5px;
   background-color: rgb(231, 44, 44);
@@ -97,21 +97,21 @@ footer div ul li a:hover {
           transition-duration: 0.3s;
   color: white;
 }
-.maintrayectoria div div .imgmio {
+.main__trayectoria div div .imgmio {
   border: 5px solid rgb(231, 44, 44);
   border-radius: 8px;
   margin: 5px;
   width: 450px;
   height: 300px;
 }
-.maintrayectoria div div .imgmioarg {
+.main__trayectoria div div .imgmioarg {
   border: 5px solid rgb(231, 44, 44);
   border-radius: 8px;
   margin: 5px;
   width: 600px;
   height: 300px;
 }
-.maintrayectoria div div .pmio {
+.main__trayectoria div div .pmio {
   font-size: 16px;
 }
 
@@ -157,11 +157,11 @@ footer div ul li a:hover {
   padding: 5px;
   height: 100%;
 }
-.main__contacto .main__contacto__img {
-  width: 100%;
+.main__contacto div .main__contacto__img {
+  width: 400px;
 }
-.main__contacto .main__contacto__img:hover {
-  width: 90%;
+.main__contacto div .main__contacto__img:hover {
+  width: 500px;
   -webkit-transition: 2s;
   transition: 2s;
 }
@@ -171,8 +171,27 @@ footer div ul li a:hover {
 .main__contacto div form label {
   width: 100%;
 }
+.main__contacto div form input {
+  border-radius: 8px;
+}
+.main__contacto div form input:hover {
+  border: solid 2px rgb(231, 44, 44);
+}
 .main__contacto div form textarea {
-  width: 80%;
+  padding: 2px 5px 2px;
+  border-radius: 8px;
+  width: 70%;
+}
+.main__contacto div form textarea:hover {
+  border: solid 2px rgb(231, 44, 44);
+}
+.main__contacto div .main__contacto__form__enviar {
+  font-size: 18px;
+  color: white;
+  padding: 5px 10px 5px;
+  border: 5px rgb(231, 44, 44);
+  border-radius: 8px;
+  background-color: rgb(231, 44, 44);
 }
 
 @media (max-width: 1400px) {
@@ -222,6 +241,15 @@ footer div ul li a:hover {
     width: 350px;
     height: 250px;
   }
+
+  .main__contacto div .main__contacto__img {
+    width: 300px;
+  }
+  .main__contacto div .main__contacto__img:hover {
+    width: 350px;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
 }
 @media (max-width: 768px) {
   .main__index div .main__index__titulo__item {
@@ -231,13 +259,22 @@ footer div ul li a:hover {
     font-size: 20px;
   }
 
-  .maintrayectoria div div .imgmio {
+  .main__trayectoria div div .imgmio {
     width: 500px;
     height: 300px;
   }
-  .maintrayectoria div div .imgmioarg {
+  .main__trayectoria div div .imgmioarg {
     width: 500px;
     height: 300px;
+  }
+
+  .main__contacto div .main__contacto__img {
+    width: 200px;
+  }
+  .main__contacto div .main__contacto__img:hover {
+    width: 250px;
+    -webkit-transition: 2s;
+    transition: 2s;
   }
 }
 @media (max-width: 576px) {

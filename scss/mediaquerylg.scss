@@ -31,4 +31,16 @@
             }
         }
     }
+
+    .main__contacto{
+        div{
+            .main__contacto__img{
+                width: 300px;
+                &:hover{
+                    width: 350px;
+                    transition: 2s;
+                }
+            }
+        }
+    }
 }
